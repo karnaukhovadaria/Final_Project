@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: qa_desk.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 54.61 s <<< FAILURE! -- in qa_desk.RunCucumberTest
+Delete card.Successful card delete -- Time elapsed: 6.713 s <<< FAILURE!
+java.lang.AssertionError: Delete button not found
+	at pages.ProfilePage.hasDeleteButton(ProfilePage.java:34)
+	at qa_desk.CardDeleteSteps.deleteButtonAvailable(CardDeleteSteps.java:49)
+	at ✽.Delete button is available(classpath:features/CardDelete.feature:14)
+
+Card edit.Successful card edit -- Time elapsed: 18.74 s <<< FAILURE!
+Element should have text 'Enormous Rubber Gloves' {.createListing_title__IFtFs}
+Element: '<h1 class="hi createListing_title__IFtFs">Редактировать объявление</h1>'
+Screenshot: file:/C:/Users/261/Final_Project/target/selenide-reports/1794414219887.0.png
+Page source: file:/C:/Users/261/Final_Project/target/selenide-reports/1794414219887.0.html
+Timeout: 10 s.
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:121)
+	at com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:133)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:85)
+	at com.sun.proxy.$Proxy17.shouldHave(Unknown Source)
+	at pages.EditCardPage.shouldBeOpened(EditCardPage.java:27)
+	at qa_desk.CardEditSteps.editCardIsOpened(CardEditSteps.java:49)
+	at ✽.Edit card is opened(classpath:features/CardEdit.feature:13)
+
