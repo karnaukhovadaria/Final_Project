@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="qa_desk.RunCucumberTest" time="54.611" tests="6" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\261\.cache\selenium\chromedriver\win64\157.0.8103.50\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\261\Final_Project\target\test-classes;C:\Users\261\Final_Project\target\classes;C:\Users\261\.m2\repository\io\cucumber\cucumber-java\7.11.0\cucumber-java-7.11.0.jar;C:\Users\261\.m2\repository\io\cucumber\cucumber-core\7.11.0\cucumber-core-7.11.0.jar;C:\Users\261\.m2\repository\io\cucumber\cucumber-gherkin\7.11.0\cucumber-gherkin-7.11.0.jar;C:\Users\261\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.0\cucumber-gherkin-messages-7.11.0.jar;C:\Users\261\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\261\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\261\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\261\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\261\.m2\repository\io\cucumber\datatable\7.11.0\datatable-7.11.0.jar;C:\Users\261\.m2\repository\io\cucumber\cucumber-plugin\7.11.0\cucumber-plugin-7.11.0.jar;C:\Users\261\.m2\repository\io\cucumber\docstring\7.11.0\docstring-7.11.0.jar;C:\Users\261\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\261\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\261\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\261\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\261\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.11.0\cucumber-junit-platform-engine-7.11.0.jar;C:\Users\261\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\261\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\261\.m2\repository\org\junit\platform\junit-platform-suite-api\1.9.3\junit-platform-suite-api-1.9.3.jar;C:\Users\261\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\261\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.9.3\junit-platform-suite-engine-1.9.3.jar;C:\Users\261\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.9.3\junit-platform-suite-commons-1.9.3.jar;C:\Users\261\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.3\junit-jupiter-5.9.3.jar;C:\Users\261\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\261\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar;C:\Users\261\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\261\.m2\repository\io\cucumber\cucumber-picocontainer\7.11.0\cucumber-picocontainer-7.11.0.jar;C:\Users\261\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\261\.m2\repository\com\codeborne\selenide\5.23.2\selenide-5.23.2.jar;C:\Users\261\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\261\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\261\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\261\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\261\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\261\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\261\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\261\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\261\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\261\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\261\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\261\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\261\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\261\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\261\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\261\.m2\repository\com\google\guava\guava\30.1.1-jre\guava-30.1.1-jre.jar;C:\Users\261\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\261\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\261\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\261\.m2\repository\org\checkerframework\checker-qual\3.8.0\checker-qual-3.8.0.jar;C:\Users\261\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\261\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\261\.m2\repository\io\github\bonigarcia\webdrivermanager\6.1.0\webdrivermanager-6.1.0.jar;C:\Users\261\.m2\repository\com\github\docker-java\docker-java\3.5.0\docker-java-3.5.0.jar;C:\Users\261\.m2\repository\com\github\docker-java\docker-java-core\3.5.0\docker-java-core-3.5.0.jar;C:\Users\261\.m2\repository\com\github\docker-java\docker-java-api\3.5.0\docker-java-api-3.5.0.jar;C:\Users\261\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\261\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.5.0\docker-java-transport-httpclient5-3.5.0.jar;C:\Users\261\.m2\repository\com\github\docker-java\docker-java-transport\3.5.0\docker-java-transport-3.5.0.jar;C:\Users\261\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\261\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\261\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\261\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\261\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\261\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\261\.m2\repository\net\java\dev\jna\jna-platform\5.13.0\jna-platform-5.13.0.jar;C:\Users\261\.m2\repository\io\rest-assured\rest-assured\4.5.0\rest-assured-4.5.0.jar;C:\Users\261\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\261\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.9\groovy-xml-3.0.9.jar;C:\Users\261\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\261\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\261\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\261\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\261\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\261\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\261\.m2\repository\io\rest-assured\json-path\4.5.0\json-path-4.5.0.jar;C:\Users\261\.m2\repository\org\codehaus\groovy\groovy-json\3.0.9\groovy-json-3.0.9.jar;C:\Users\261\.m2\repository\io\rest-assured\rest-assured-common\4.5.0\rest-assured-common-4.5.0.jar;C:\Users\261\.m2\repository\io\rest-assured\xml-path\4.5.0\xml-path-4.5.0.jar;C:\Users\261\.m2\repository\com\google\code\gson\gson\2.13.1\gson-2.13.1.jar;C:\Users\261\.m2\repository\com\google\errorprone\error_prone_annotations\2.38.0\error_prone_annotations-2.38.0.jar;C:\Users\261\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.0\jackson-databind-2.19.0.jar;C:\Users\261\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.0\jackson-annotations-2.19.0.jar;C:\Users\261\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.0\jackson-core-2.19.0.jar;C:\Users\261\.m2\repository\io\qameta\allure\allure-junit5\2.25.0\allure-junit5-2.25.0.jar;C:\Users\261\.m2\repository\io\qameta\allure\allure-junit-platform\2.25.0\allure-junit-platform-2.25.0.jar;C:\Users\261\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\261\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\261\.m2\repository\io\qameta\allure\allure-test-filter\2.25.0\allure-test-filter-2.25.0.jar;C:\Users\261\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.2\junit-platform-launcher-1.9.2.jar;C:\Users\261\.m2\repository\io\qameta\allure\allure-rest-assured\2.25.0\allure-rest-assured-2.25.0.jar;C:\Users\261\.m2\repository\io\qameta\allure\allure-attachments\2.25.0\allure-attachments-2.25.0.jar;C:\Users\261\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\261\.m2\repository\org\aspectj\aspectjweaver\1.9.21\aspectjweaver-1.9.21.jar;C:\Users\261\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\261\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\261\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\261\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\261\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.5\httpclient5-5.5.jar;C:\Users\261\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\261\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\261\.m2\repository\org\slf4j\slf4j-simple\2.0.9\slf4j-simple-2.0.9.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="property" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.31_11\bin"/>
+    <property name="sun.java.command" value="C:\Users\261\AppData\Local\Temp\surefire972172346186063075\surefirebooter-20261111192255381_3.jar C:\Users\261\AppData\Local\Temp\surefire972172346186063075 2026-11-11T19-22-54_974-jvmRun1 surefire-20261111192255381_1tmp surefire_0-20261111192255381_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\261\Final_Project\target\test-classes;C:\Users\261\Final_Project\target\classes;C:\Users\261\.m2\repository\io\cucumber\cucumber-java\7.11.0\cucumber-java-7.11.0.jar;C:\Users\261\.m2\repository\io\cucumber\cucumber-core\7.11.0\cucumber-core-7.11.0.jar;C:\Users\261\.m2\repository\io\cucumber\cucumber-gherkin\7.11.0\cucumber-gherkin-7.11.0.jar;C:\Users\261\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.0\cucumber-gherkin-messages-7.11.0.jar;C:\Users\261\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\261\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\261\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\261\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\261\.m2\repository\io\cucumber\datatable\7.11.0\datatable-7.11.0.jar;C:\Users\261\.m2\repository\io\cucumber\cucumber-plugin\7.11.0\cucumber-plugin-7.11.0.jar;C:\Users\261\.m2\repository\io\cucumber\docstring\7.11.0\docstring-7.11.0.jar;C:\Users\261\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\261\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\261\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\261\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\261\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.11.0\cucumber-junit-platform-engine-7.11.0.jar;C:\Users\261\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\261\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\261\.m2\repository\org\junit\platform\junit-platform-suite-api\1.9.3\junit-platform-suite-api-1.9.3.jar;C:\Users\261\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\261\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.9.3\junit-platform-suite-engine-1.9.3.jar;C:\Users\261\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.9.3\junit-platform-suite-commons-1.9.3.jar;C:\Users\261\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.3\junit-jupiter-5.9.3.jar;C:\Users\261\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\261\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar;C:\Users\261\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\261\.m2\repository\io\cucumber\cucumber-picocontainer\7.11.0\cucumber-picocontainer-7.11.0.jar;C:\Users\261\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\261\.m2\repository\com\codeborne\selenide\5.23.2\selenide-5.23.2.jar;C:\Users\261\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\261\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\261\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\261\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\261\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\261\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\261\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\261\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\261\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\261\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\261\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\261\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\261\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\261\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\261\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\261\.m2\repository\com\google\guava\guava\30.1.1-jre\guava-30.1.1-jre.jar;C:\Users\261\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\261\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\261\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\261\.m2\repository\org\checkerframework\checker-qual\3.8.0\checker-qual-3.8.0.jar;C:\Users\261\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\261\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\261\.m2\repository\io\github\bonigarcia\webdrivermanager\6.1.0\webdrivermanager-6.1.0.jar;C:\Users\261\.m2\repository\com\github\docker-java\docker-java\3.5.0\docker-java-3.5.0.jar;C:\Users\261\.m2\repository\com\github\docker-java\docker-java-core\3.5.0\docker-java-core-3.5.0.jar;C:\Users\261\.m2\repository\com\github\docker-java\docker-java-api\3.5.0\docker-java-api-3.5.0.jar;C:\Users\261\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\261\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.5.0\docker-java-transport-httpclient5-3.5.0.jar;C:\Users\261\.m2\repository\com\github\docker-java\docker-java-transport\3.5.0\docker-java-transport-3.5.0.jar;C:\Users\261\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\261\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\261\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\261\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\261\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\261\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\261\.m2\repository\net\java\dev\jna\jna-platform\5.13.0\jna-platform-5.13.0.jar;C:\Users\261\.m2\repository\io\rest-assured\rest-assured\4.5.0\rest-assured-4.5.0.jar;C:\Users\261\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\261\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.9\groovy-xml-3.0.9.jar;C:\Users\261\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\261\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\261\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\261\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\261\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\261\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\261\.m2\repository\io\rest-assured\json-path\4.5.0\json-path-4.5.0.jar;C:\Users\261\.m2\repository\org\codehaus\groovy\groovy-json\3.0.9\groovy-json-3.0.9.jar;C:\Users\261\.m2\repository\io\rest-assured\rest-assured-common\4.5.0\rest-assured-common-4.5.0.jar;C:\Users\261\.m2\repository\io\rest-assured\xml-path\4.5.0\xml-path-4.5.0.jar;C:\Users\261\.m2\repository\com\google\code\gson\gson\2.13.1\gson-2.13.1.jar;C:\Users\261\.m2\repository\com\google\errorprone\error_prone_annotations\2.38.0\error_prone_annotations-2.38.0.jar;C:\Users\261\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.0\jackson-databind-2.19.0.jar;C:\Users\261\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.0\jackson-annotations-2.19.0.jar;C:\Users\261\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.0\jackson-core-2.19.0.jar;C:\Users\261\.m2\repository\io\qameta\allure\allure-junit5\2.25.0\allure-junit5-2.25.0.jar;C:\Users\261\.m2\repository\io\qameta\allure\allure-junit-platform\2.25.0\allure-junit-platform-2.25.0.jar;C:\Users\261\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\261\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\261\.m2\repository\io\qameta\allure\allure-test-filter\2.25.0\allure-test-filter-2.25.0.jar;C:\Users\261\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.2\junit-platform-launcher-1.9.2.jar;C:\Users\261\.m2\repository\io\qameta\allure\allure-rest-assured\2.25.0\allure-rest-assured-2.25.0.jar;C:\Users\261\.m2\repository\io\qameta\allure\allure-attachments\2.25.0\allure-attachments-2.25.0.jar;C:\Users\261\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\261\.m2\repository\org\aspectj\aspectjweaver\1.9.21\aspectjweaver-1.9.21.jar;C:\Users\261\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\261\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\261\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\261\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\261\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.5\httpclient5-5.5.jar;C:\Users\261\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\261\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\261\.m2\repository\org\slf4j\slf4j-simple\2.0.9\slf4j-simple-2.0.9.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\261"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-04-21"/>
+    <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk11.0.31_11"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\261\Final_Project"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\261\AppData\Local\Temp\surefire972172346186063075\surefirebooter-20261111192255381_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.31+11-LTS"/>
+    <property name="user.name" value="261"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.31.11.1"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2026.1.2\plugins\maven\lib\intellij.maven.rt\maven-event-listener.jar"/>
+    <property name="localRepository" value="C:\Users\261\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\261\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2026.1.2"/>
+    <property name="java.version" value="11.0.31"/>
+    <property name="user.dir" value="C:\Users\261\Final_Project"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.31_11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Amazon Corretto\jdk11.0.31_11\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\apache-maven-3.9.15-bin\apache-maven-3.9.15\bin;C:\Program Files\Git\cmd;C:\Program Files\WSL\;C:\Users\261\AppData\Local\Microsoft\WindowsApps;C:\Program Files\allure-2.45.0\bin;;C:\Users\261\AppData\Local\Programs\DockerDesktop\resources\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.31+11-LTS"/>
+    <property name="java.specification.maintenance.version" value="3"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="maven.repo.local" value="C:\Users\261\.m2\repository"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="Successful creation of card" classname="Create card" time="15.674">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://qa-desk.education-services.ru/api/signup
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "chere.heaney@gmail.com",
+    "password": "7Be87cer",
+    "submitPassword": "7Be87cer"
+}
+HTTP/1.1 201 Created
+Server: nginx
+Date: Wed, 11 Nov 2026 16:23:09 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 301
+Connection: keep-alive
+X-Powered-By: Express
+X-QA-Revision: b7c87c7e461e8776cc042f6e1d3cd6bc9f96cbe9
+Access-Control-Allow-Origin: *
+ETag: W/"12d-N7zH4XTzJl7AtC6Ogv+9z2fbe2A"
+
+{
+    "user": {
+        "id": 68,
+        "name": "User",
+        "email": "chere.heaney@gmail.com"
+    },
+    "access_token": {
+        "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NjgsImVtYWlsIjoiY2hlcmUuaGVhbmV5QGdtYWlsLmNvbSIsIm5hbWUiOiJVc2VyIiwiaWF0IjoxNzk0NDE0MTg5LCJleHAiOjE3OTQ1MDA1ODl9.N7Fhe-S_csRYfOxH0ca3L5Y3zknLiExMGw7KyPFGuv4"
+    }
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 157.0.8103.50 (049750111b1e5c11565c792b2aeed5541f332bad-refs/branch-heads/8103_38@{#8}) on port 46589
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 46589.
+нояб. 11, 2026 7:23:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Successful card delete" classname="Delete card" time="6.713">
+    <failure message="Delete button not found" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Delete button not found
+	at pages.ProfilePage.hasDeleteButton(ProfilePage.java:34)
+	at qa_desk.CardDeleteSteps.deleteButtonAvailable(CardDeleteSteps.java:49)
+	at ✽.Delete button is available(classpath:features/CardDelete.feature:14)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://qa-desk.education-services.ru/api/signup
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "leif.lehner@yahoo.com",
+    "password": "6^^G6t35",
+    "submitPassword": "6^^G6t35"
+}
+HTTP/1.1 201 Created
+Server: nginx
+Date: Wed, 11 Nov 2026 16:23:15 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 299
+Connection: keep-alive
+X-Powered-By: Express
+X-QA-Revision: b7c87c7e461e8776cc042f6e1d3cd6bc9f96cbe9
+Access-Control-Allow-Origin: *
+ETag: W/"12b-X2IC4oC/qtBh29Qs1HEfW9Muy5I"
+
+{
+    "user": {
+        "id": 69,
+        "name": "User",
+        "email": "leif.lehner@yahoo.com"
+    },
+    "access_token": {
+        "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NjksImVtYWlsIjoibGVpZi5sZWhuZXJAeWFob28uY29tIiwibmFtZSI6IlVzZXIiLCJpYXQiOjE3OTQ0MTQxOTUsImV4cCI6MTc5NDUwMDU5NX0.uH8s80w6mWeqK6ZBiXc8plN3XbCxTNqDmPzqbfIDeSg"
+    }
+}
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 157.0.8103.50 (049750111b1e5c11565c792b2aeed5541f332bad-refs/branch-heads/8103_38@{#8}) on port 42394
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 42394.
+нояб. 11, 2026 7:23:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Successful card edit" classname="Card edit" time="18.74">
+    <failure message="Element should have text &apos;Enormous Rubber Gloves&apos; {.createListing_title__IFtFs}&#10;Element: &apos;&lt;h1 class=&quot;hi createListing_title__IFtFs&quot;&gt;Редактировать объявление&lt;/h1&gt;&apos;&#10;Screenshot: file:/C:/Users/261/Final_Project/target/selenide-reports/1794414219887.0.png&#10;Page source: file:/C:/Users/261/Final_Project/target/selenide-reports/1794414219887.0.html&#10;Timeout: 10 s." type="Element should have text &apos;Enormous Rubber Gloves&apos; {.createListing_title__IFtFs}&#10;Element"><![CDATA[Element should have text 'Enormous Rubber Gloves' {.createListing_title__IFtFs}
+Element: '<h1 class="hi createListing_title__IFtFs">Редактировать объявление</h1>'
+Screenshot: file:/C:/Users/261/Final_Project/target/selenide-reports/1794414219887.0.png
+Page source: file:/C:/Users/261/Final_Project/target/selenide-reports/1794414219887.0.html
+Timeout: 10 s.
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:121)
+	at com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:133)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:85)
+	at com.sun.proxy.$Proxy17.shouldHave(Unknown Source)
+	at pages.EditCardPage.shouldBeOpened(EditCardPage.java:27)
+	at qa_desk.CardEditSteps.editCardIsOpened(CardEditSteps.java:49)
+	at ✽.Edit card is opened(classpath:features/CardEdit.feature:13)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://qa-desk.education-services.ru/api/signup
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "rocky.wolf@hotmail.com",
+    "password": "bU3W93h@",
+    "submitPassword": "bU3W93h@"
+}
+HTTP/1.1 201 Created
+Server: nginx
+Date: Wed, 11 Nov 2026 16:23:23 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 301
+Connection: keep-alive
+X-Powered-By: Express
+X-QA-Revision: b7c87c7e461e8776cc042f6e1d3cd6bc9f96cbe9
+Access-Control-Allow-Origin: *
+ETag: W/"12d-tgOmzRFsnTaX6lEyTDVMIWtTnro"
+
+{
+    "user": {
+        "id": 70,
+        "name": "User",
+        "email": "rocky.wolf@hotmail.com"
+    },
+    "access_token": {
+        "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NzAsImVtYWlsIjoicm9ja3kud29sZkBob3RtYWlsLmNvbSIsIm5hbWUiOiJVc2VyIiwiaWF0IjoxNzk0NDE0MjAzLCJleHAiOjE3OTQ1MDA2MDN9.Yk1-YMwzwX-Q0sCkMsem6RlBn3Sp-Z1ccXmp9NN5AxE"
+    }
+}
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 157.0.8103.50 (049750111b1e5c11565c792b2aeed5541f332bad-refs/branch-heads/8103_38@{#8}) on port 47602
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 47602.
+нояб. 11, 2026 7:23:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="successful authorization" classname="User login" time="5.413">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://qa-desk.education-services.ru/api/signup
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "trinh.morissette@yahoo.com",
+    "password": "#vaU7TZb9",
+    "submitPassword": "#vaU7TZb9"
+}
+HTTP/1.1 201 Created
+Server: nginx
+Date: Wed, 11 Nov 2026 16:23:41 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 311
+Connection: keep-alive
+X-Powered-By: Express
+X-QA-Revision: b7c87c7e461e8776cc042f6e1d3cd6bc9f96cbe9
+Access-Control-Allow-Origin: *
+ETag: W/"137-VqYf24KifEesLD8RqCJ4Bra/E18"
+
+{
+    "user": {
+        "id": 71,
+        "name": "User",
+        "email": "trinh.morissette@yahoo.com"
+    },
+    "access_token": {
+        "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NzEsImVtYWlsIjoidHJpbmgubW9yaXNzZXR0ZUB5YWhvby5jb20iLCJuYW1lIjoiVXNlciIsImlhdCI6MTc5NDQxNDIyMSwiZXhwIjoxNzk0NTAwNjIxfQ.bJlbjeSUsCDGJmb-umZtG7zgdYNYTWB5zmebEygmPnc"
+    }
+}
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 157.0.8103.50 (049750111b1e5c11565c792b2aeed5541f332bad-refs/branch-heads/8103_38@{#8}) on port 23927
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 23927.
+нояб. 11, 2026 7:23:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Successful registration with unique email" classname="User registration" time="3.513">
+    <system-err><![CDATA[Starting ChromeDriver 157.0.8103.50 (049750111b1e5c11565c792b2aeed5541f332bad-refs/branch-heads/8103_38@{#8}) on port 23267
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 23267.
+нояб. 11, 2026 7:23:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Registration failure with existing email" classname="User registration" time="4.224">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://qa-desk.education-services.ru/api/signup
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "iola.lueilwitz@yahoo.com",
+    "password": "Oel^QAliT",
+    "submitPassword": "Oel^QAliT"
+}
+HTTP/1.1 201 Created
+Server: nginx
+Date: Wed, 11 Nov 2026 16:23:49 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 306
+Connection: keep-alive
+X-Powered-By: Express
+X-QA-Revision: b7c87c7e461e8776cc042f6e1d3cd6bc9f96cbe9
+Access-Control-Allow-Origin: *
+ETag: W/"132-hZGTySNbzwTIAvpijEtmTcKlNBc"
+
+{
+    "user": {
+        "id": 73,
+        "name": "User",
+        "email": "iola.lueilwitz@yahoo.com"
+    },
+    "access_token": {
+        "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NzMsImVtYWlsIjoiaW9sYS5sdWVpbHdpdHpAeWFob28uY29tIiwibmFtZSI6IlVzZXIiLCJpYXQiOjE3OTQ0MTQyMjksImV4cCI6MTc5NDUwMDYyOX0.zTWdDnSAPbkODWeGrgPu_rC8oYuiol-ATlK7W3g1Kro"
+    }
+}
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 157.0.8103.50 (049750111b1e5c11565c792b2aeed5541f332bad-refs/branch-heads/8103_38@{#8}) on port 1916
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 1916.
+нояб. 11, 2026 7:23:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
